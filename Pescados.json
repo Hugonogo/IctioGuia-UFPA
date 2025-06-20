@@ -1,0 +1,94 @@
+[
+  {
+    "especie": "Tilápia",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "./Assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Tambaqui",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "./Assets/mm02.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Dourada",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "./Assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Mapará",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível, com presença de linha de sangue",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "./Assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Piramutaba",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível, com presença de linha de sangue",   
+    "linhas_acessorias": "ausentes",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "./Assets/mm16.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  },
+  {
+    "especie": "Filhote",
+    "cor_aspecto": "amarelada",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "./Assets/mm02.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  }, 
+  {
+    "especie": "Surubim",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "./Assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pirarucu",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "./Assets/mm12.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pescada Gó",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "./Assets/mm14.png",
+    "musculatura": "branca"
+  },
+  
+  {
+    "especie": "Pescada Amarela",
+    "cor_aspecto": "ligeiramente amarela",
+    "septo_horizontal": "visível",
+    "linhas_acessorias": "ausentes",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "./Assets/mm15.png",
+    "musculatura": "branca"
+  }
+
+]

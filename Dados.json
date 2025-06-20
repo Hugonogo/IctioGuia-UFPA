@@ -1,0 +1,255 @@
+[
+  {
+    "especie": "Tilápia",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Tilápia",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Tilápia",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm12.png",
+    "musculatura": "branca"
+  },
+
+  {
+    "especie": "Tambaqui",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "assets/mm02.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Tambaqui",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "perimisio": "visível",
+    "miomeros_mioseptos": "assets/mm02.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Tambaqui",
+    "cor_aspecto": "rosado",
+    "septo_horizontal": "visível",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "assets/mm15.png",
+    "musculatura": "branca"
+  },
+
+  {
+    "especie": "Dourada",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Dourada",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Dourada",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm14.png",
+    "musculatura": "branca"
+  },
+
+
+  {
+    "especie": "Mapará",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível, com presença de linha de sangue",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Mapará",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível, com presença de linha de sangue",
+    "perimisio": "visível",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Mapará",
+    "cor_aspecto": "branca",
+    "septo_horizontal": "visível, com presença de linha de sangue",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm02.png",
+    "musculatura": "branca"
+  },
+
+  {
+    "especie": "Piramutaba",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível, com presença de linha de sangue",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  },
+  {
+    "especie": "Piramutaba",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível, com presença de linha de sangue",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  },
+  {
+    "especie": "Piramutaba",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível, com presença de linha de sangue",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm12.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  },
+
+  {
+    "especie": "Filhote",
+    "cor_aspecto": "amarelada",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm02.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  },
+  {
+    "especie": "Filhote",
+    "cor_aspecto": "amarelada",
+    "septo_horizontal": "visível",
+    "perimisio": "visível",
+    "miomeros_mioseptos": "assets/mm02.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  },
+  {
+    "especie": "Filhote",
+    "cor_aspecto": "amarelada",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm14.png",
+    "musculatura": "vermelha intensa ao castanho escuro"
+  },
+
+ 
+  {
+    "especie": "Surubim",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Surubim",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Surubim",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm15.png",
+    "musculatura": "branca"
+  },
+
+
+  {
+    "especie": "Pirarucu",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "assets/mm12.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pirarucu",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm12.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pirarucu",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "assets/mm16.png",
+    "musculatura": "branca"
+  },
+
+
+  {
+    "especie": "Pescada Gó",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "assets/mm14.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pescada Gó",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "pouco visível",
+    "miomeros_mioseptos": "assets/mm14.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pescada Gó",
+    "cor_aspecto": "ligeiramente rosada",
+    "septo_horizontal": "visível",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "assets/mm02.png",
+    "musculatura": "branca"
+  },
+
+  {
+    "especie": "Pescada Amarela",
+    "cor_aspecto": "ligeiramente amarela",
+    "septo_horizontal": "visível",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "assets/mm15.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pescada Amarela",
+    "cor_aspecto": "ligeiramente amarela",
+    "septo_horizontal": "visível",
+    "perimisio": "ausente",
+    "miomeros_mioseptos": "assets/mm15.png",
+    "musculatura": "branca"
+  },
+  {
+    "especie": "Pescada Amarela",
+    "cor_aspecto": "ligeiramente amarela",
+    "septo_horizontal": "visível",
+    "perimisio": "Visível",
+    "miomeros_mioseptos": "assets/mm12.png",
+    "musculatura": "branca"
+  }
+]
