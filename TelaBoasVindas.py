@@ -8,23 +8,19 @@ class WelcomeScreen:
 
     def build(self):
         max_width = 700  # Largura máxima para centralizar em telas grandes
-
         return ft.Column(
             [
                 self.app_bar,
                 ft.Container(height=30),
-
                 # Título
                 ft.Text(
                     "🎣 Bem-vindo ao Identifica Pescado",
                     size=26,
                     weight=ft.FontWeight.BOLD,
                     text_align=ft.TextAlign.CENTER,
-                    color="#1A202C",
+                    color="#00A676",
                 ),
-
                 ft.Container(height=25),
-
                 # Texto introdutório centralizado
                 ft.Container(
                     content=ft.Text(
@@ -33,15 +29,14 @@ class WelcomeScreen:
                         "Pará, com foco na proteção do consumidor e na promoção da transparência no mercado de pescados.",
                         size=15,
                         text_align=ft.TextAlign.CENTER,
-                        color="#2D3748"
+                        color="#2D3748",
                     ),
                     width=max_width,
                     padding=ft.Padding(20, 10, 20, 10),
-                    border_radius=8,
+                    border_radius=16,
+                    bgcolor="#FFFFFF",
                 ),
-
                 ft.Container(height=10),
-
                 # Texto explicativo centralizado
                 ft.Container(
                     content=ft.Text(
@@ -50,34 +45,32 @@ class WelcomeScreen:
                         "e garantimos uma escolha mais segura e consciente.",
                         size=15,
                         text_align=ft.TextAlign.CENTER,
-                        color="#2D3748"
+                        color="#2D3748",
                     ),
                     width=max_width,
                     padding=ft.Padding(20, 10, 20, 10),
-                    border_radius=8,
+                    border_radius=16,
+                    bgcolor="#FFFFFF",
                 ),
-
                 ft.Container(height=30),
-
                 # Botão iniciar
                 ft.ElevatedButton(
                     "Iniciar",
                     width=220,
                     on_click=lambda e: self.navigate_to_info(),
-                    bgcolor="#3182CE",
+                    bgcolor="#00A676",
                     color="white",
                     style=ft.ButtonStyle(
-                        shape=ft.RoundedRectangleBorder(radius=10),
+                        shape=ft.RoundedRectangleBorder(radius=24),
                         padding=20,
                     ),
                 ),
-
                 ft.Container(height=40),
             ],
             alignment=ft.MainAxisAlignment.CENTER,
             horizontal_alignment=ft.CrossAxisAlignment.CENTER,
             width=self.page.width,
-            scroll=ft.ScrollMode.AUTO  # Garante que funcione bem em qualquer tamanho de tela
+            scroll=ft.ScrollMode.AUTO,
         )
 
     def show(self):

@@ -23,7 +23,7 @@ if (flutterVersionName == null) {
 }
 
 android {
-    namespace "com.flet.androidpy"
+    namespace "com.flet.ictioguia_ufpa"
     compileSdkVersion flutter.compileSdkVersion
 
     packagingOptions {
@@ -53,7 +53,7 @@ android {
     
 
     defaultConfig {        
-        applicationId "com.flet.androidpy"
+        applicationId "com.flet.ictioguia_ufpa"
         minSdkVersion flutter.minSdkVersion
         targetSdkVersion flutter.targetSdkVersion
         versionCode flutterVersionCode.toInteger()

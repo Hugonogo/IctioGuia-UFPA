@@ -11,7 +11,7 @@
 
     <!--  -->
     <application
-        android:label="androidpy"
+        android:label="IctioGuia-UFPA"
         android:name="${applicationName}"
         android:enableOnBackInvokedCallback="true"
         android:icon="@mipmap/ic_launcher">

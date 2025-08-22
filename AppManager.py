@@ -1,7 +1,8 @@
 import flet as ft
+
 from TelaBoasVindas import WelcomeScreen
 from ClassificadorPescado import ClassifierScreen
-from TelaInformacoes import InfoScreen  # ✅ Importa a nova tela
+from TelaInformacoes import InfoScreen
 
 class AppManager:
     def __init__(self, page: ft.Page):
@@ -20,18 +21,18 @@ class AppManager:
         self.page.padding = ft.padding.symmetric(horizontal=10, vertical=15)
         self.page.theme = ft.Theme(
             color_scheme=ft.ColorScheme(
-                primary="#184175",
-                on_primary="#D1D5DB",
+                primary="#00A676",
+                on_primary="#FFFFFF",
                 background="#F5F7FA",
                 on_background="#2D3748",
-                surface="#D1D5DB",
+                surface="#FFFFFF",
                 on_surface="#2D3748",
-                secondary="#4B5EAA",
-                on_secondary="#D1D5DB",
+                secondary="#00A676",
+                on_secondary="#FFFFFF",
             ),
             text_theme=ft.TextTheme(
                 body_medium=ft.TextStyle(color="#2D3748", size=14),
-                headline_medium=ft.TextStyle(color="#1A202C", weight=ft.FontWeight.BOLD, size=22),
+                headline_medium=ft.TextStyle(color="#00A676", weight=ft.FontWeight.BOLD, size=22),
             )
         )
         self.page.bgcolor = "#F5F7FA"
@@ -51,15 +52,15 @@ class AppManager:
                         on_click=self.toggle_navigation_drawer,
                         tooltip="Menu"
                     ),
-                    ft.Text("Classificador", color="#FFFFFF", size=18, weight=ft.FontWeight.BOLD),
+                    ft.Text("IctioGUIA", color="#FFFFFF", size=18, weight=ft.FontWeight.BOLD),
                 ],
                 alignment=ft.MainAxisAlignment.SPACE_BETWEEN,
                 expand=True
             ),
-            bgcolor="#184175",
+            bgcolor="#00A676",
             padding=10,
             height=60,
-            border_radius=ft.border_radius.only(bottom_left=8, bottom_right=8),
+            border_radius=ft.border_radius.only(bottom_left=16, bottom_right=16),
             shadow=ft.BoxShadow(
                 spread_radius=1,
                 blur_radius=5,
@@ -89,7 +90,7 @@ class AppManager:
                 ),
             ],
             on_change=self.on_navigation_change,
-            bgcolor="#F5F7FA",
+            bgcolor="#FFFFFF",
         )
 
     def toggle_navigation_drawer(self, e):
@@ -112,7 +113,7 @@ class AppManager:
 
     def show_welcome_screen(self):
         """Exibe a Tela de Boas-Vindas."""
-        welcome_screen = WelcomeScreen(self.page, self.app_bar, self.show_info_screen)  # ✅ Vai para InfoScreen
+        welcome_screen = WelcomeScreen(self.page, self.app_bar, self.show_info_screen)
         welcome_screen.show()
         self.current_screen = "welcome"
         self.navigation_drawer.selected_index = 0
@@ -120,7 +121,7 @@ class AppManager:
 
     def show_info_screen(self):
         """Exibe a Tela de Informações."""
-        info_screen = InfoScreen(self.page, self.app_bar, self.show_classifier_screen)  # ✅ Vai para classificador
+        info_screen = InfoScreen(self.page, self.app_bar, self.show_classifier_screen)
         info_screen.show()
         self.current_screen = "info"
         self.navigation_drawer.selected_index = 1

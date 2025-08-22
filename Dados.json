@@ -108,13 +108,14 @@
     "miomeros_mioseptos": "assets/mm16.png",
     "musculatura": "vermelha intensa ao castanho escuro"
   },
+  
   {
     "especie": "Piramutaba",
     "cor_aspecto": "ligeiramente rosada",
     "septo_horizontal": "visível, com presença de linha de sangue",
     "perimisio": "pouco visível",
     "miomeros_mioseptos": "assets/mm16.png",
-    "musculatura": "vermelha intensa ao castanho escuro"
+    "musculatura": "vermelha"
   },
   {
     "especie": "Piramutaba",
@@ -131,7 +132,7 @@
     "septo_horizontal": "visível",
     "perimisio": "ausente",
     "miomeros_mioseptos": "assets/mm02.png",
-    "musculatura": "vermelha intensa ao castanho escuro"
+    "musculatura": "vermelha"
   },
   {
     "especie": "Filhote",

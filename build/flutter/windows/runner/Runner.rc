@@ -90,12 +90,12 @@ BEGIN
         BLOCK "040904e4"
         BEGIN
             VALUE "CompanyName", "Your Company" "\0"
-            VALUE "FileDescription", "androidpy" "\0"
+            VALUE "FileDescription", "IctioGuia-UFPA" "\0"
             VALUE "FileVersion", VERSION_AS_STRING "\0"
-            VALUE "InternalName", "androidpy" "\0"
+            VALUE "InternalName", "ictioguia_ufpa" "\0"
             VALUE "LegalCopyright", "Copyright (c) 2023 Your Company" "\0"
-            VALUE "OriginalFilename", "androidpy.exe" "\0"
-            VALUE "ProductName", "androidpy" "\0"
+            VALUE "OriginalFilename", "ictioguia_ufpa.exe" "\0"
+            VALUE "ProductName", "IctioGuia-UFPA" "\0"
             VALUE "ProductVersion", VERSION_AS_STRING "\0"
         END
     END
